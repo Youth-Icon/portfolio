@@ -48,7 +48,7 @@ export const getUserByUsername = async (username: string) => {
       where: {
         username,
       },
-      include: { },
+      include: {},
     });
     return user;
   } catch (error) {

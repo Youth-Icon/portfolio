@@ -7,9 +7,7 @@ export function Nav() {
       <div>
         <Logo />
       </div>
-      <div>
-        
-      </div>
+      <div></div>
     </nav>
   );
 }

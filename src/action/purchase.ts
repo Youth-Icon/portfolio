@@ -10,7 +10,6 @@ export async function RecordPurchase({
   userId: string;
   data: any;
 }) {
-
   // Record Purchase
   // await db.purchase.create({
   //   data: {
@@ -25,7 +24,6 @@ export async function RecordPurchase({
   //     variantName: data.variantName,
   //   },
   // });
-
 
   return { success: "Purchase recorded." };
 }
