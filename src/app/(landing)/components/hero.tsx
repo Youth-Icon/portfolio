@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Claimer } from "./claimer";
 
 export function Hero() {
@@ -17,7 +18,49 @@ export function Hero() {
           XProfile is an open-source app that provides a one-link portfolio for
           showcasing your projects, skills, social links, and more.
         </p>
-        <Claimer/>
+        <Claimer />
+
+        <div className="max-w-screen-md mx-5 rounded-3xl border p-2 md:p-4 flex-shrink-0 bg-neutral-500/10 text-stone-400 bg-opacity-30 backdrop-blur-3xl border-t border-b border-l">
+          <div className="flex md:flex-row gap-2 md:gap-4 mb-2 px-1">
+            <svg
+              className="w-7 h-8 md:w-10 md:h-12"
+              viewBox="0 0 55 53"
+              fill="none"
+              stroke-width="2.75"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="1.35587"
+                y="2.08487"
+                width="52.0653"
+                height="48.8112"
+                stroke="currentColor"
+                stroke-width="2.71173"
+              ></rect>
+              <path
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="1"
+                d="M34.7813 39.1532H28.464L22.8063 30.0938L17.2527 39.1532H11.8032L20.151 26.4146L12.0635 14.0577H18.3287L23.3443 22.1799L28.3078 14.0577H33.6879L25.9476 25.7551L34.7813 39.1532ZM37.4469 39.1532V33.6343H43.0006V39.1532H37.4469Z"
+              ></path>
+            </svg>
+            <span className="place-self-end self-end font-medium text-sm md:text-xl">
+              XProfile
+            </span>
+          </div>
+          <div className="w-full">
+            <Image
+              alt="Image"
+              loading="lazy"
+              width="0"
+              height="0"
+              decoding="async"
+              data-nimg="1"
+              className="drop-shadow-lg w-full h-full"
+              src="/main.svg"
+            />
+          </div>
+        </div>
       </section>
     </section>
   );
