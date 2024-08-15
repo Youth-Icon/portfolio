@@ -8,8 +8,12 @@ export function Nav() {
         <Logo />
       </div>
       <div className=" flex justify-between lg:w-1/5">
-        <NavLink href="/#" text="About Us"/>
-        <NavLink href="/#" text="Get Started" className="bg-white !text-black hover:bg-primary/90" />
+        <NavLink href="/#" text="About Us" />
+        <NavLink
+          href="/#"
+          text="Get Started"
+          className="bg-white !text-black hover:bg-primary/90"
+        />
       </div>
     </nav>
   );

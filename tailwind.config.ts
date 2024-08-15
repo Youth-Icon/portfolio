@@ -2,23 +2,23 @@
 module.exports = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
   ],
   theme: {
     screens: {
-      "xs": "400px",
-      "sm":	"640px"	,
-      "md":	"768px",
-      "mml":"816px",
-      "mlg": "960px",
-      "llg": "1111px",
-      "lg":	"1024px",
-      "lgx": "1208px",
-      "xl":	"1280px",	
-      "2xl":	"1536px",
+      xs: "400px",
+      sm: "640px",
+      md: "768px",
+      mml: "816px",
+      mlg: "960px",
+      llg: "1111px",
+      lg: "1024px",
+      lgx: "1208px",
+      xl: "1280px",
+      "2xl": "1536px",
     },
 
     container: {
@@ -63,7 +63,6 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -85,18 +84,18 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       backgroundImage: {
-        'hero-pattern': "url('/hero-pattern.svg')",
-        'footer-texture': "url('/footer-texture.png')",
-        'grid-pattern': "url('/grid-pattern.png')",
-        'grid-bg': "url('/grid-bg.png')",
+        "hero-pattern": "url('/hero-pattern.svg')",
+        "footer-texture": "url('/footer-texture.png')",
+        "grid-pattern": "url('/grid-pattern.png')",
+        "grid-bg": "url('/grid-bg.png')",
       },
       fontFamily: {
         sans: ["Inter", "sans-serif"],
         mono: ["JetBrains Mono", "monospace"],
-        ubuntu: ['var(--font-ubuntu)', "sans-serif"],
-        manrope: ['var(--font-manrope)', "sans-serif"],
+        ubuntu: ["var(--font-ubuntu)", "sans-serif"],
+        manrope: ["var(--font-manrope)", "sans-serif"],
       },
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
