@@ -1,3 +1,5 @@
+import { Claimer } from "./claimer";
+
 export function Hero() {
   return (
     <section className="h-screen relative flex items-center justify-center">
@@ -15,6 +17,7 @@ export function Hero() {
           XProfile is an open-source app that provides a one-link portfolio for
           showcasing your projects, skills, social links, and more.
         </p>
+        <Claimer/>
       </section>
     </section>
   );
