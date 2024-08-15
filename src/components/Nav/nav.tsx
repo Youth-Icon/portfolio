@@ -3,7 +3,7 @@ import { NavLink } from "./NavLink";
 
 export function Nav() {
   return (
-    <nav className=" flex justify-between items-center w-screen py-5 px-10">
+    <nav className=" flex justify-between items-center absolute top-0 left-0 w-screen py-5 px-10">
       <div>
         <Logo />
       </div>
