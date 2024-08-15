@@ -13,8 +13,9 @@ const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "HelloFaizan Template",
-  description: "A template for Next.js with Shadcn UI and TypeScript",
+  title: "X Profile",
+  description:
+    "X Profile is an Open Source that allows you to showcase your profile in a unique way.",
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
